@@ -1,0 +1,44 @@
+#prchat-header-wrapper #icon li p {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* Header status icon */
+
+#chat_status_top_icon.online {
+    fill: #2ecc71;
+}
+
+#chat_status_top_icon.away {
+    fill: #f1c40f;
+}
+
+#chat_status_top_icon.busy {
+    fill: #e74c3c;
+}
+
+#chat_status_top_icon.offline {
+    fill: #95a5a6;
+}
+
+#prchat-header-wrapper .dropdown-menu>.active>a,
+#prchat-header-wrapper .dropdown-menu>.active>a:focus,
+#prchat-header-wrapper .dropdown-menu>.active>a:hover,
+#prchat-header-wrapper .dropdown-menu>li>a:focus,
+#prchat-header-wrapper .dropdown-menu>li>a:hover {
+    --tw-bg-opacity: 1;
+    --tw-text-opacity: 1;
+    background-color: #2663eb;
+    color: #fff !important;
+}
+
+
+
+/* Screens */
+
+@media screen and (max-width: 900px) {
+    #prchat-header-wrapper {
+        display: none;
+    }
+}

@@ -1,0 +1,135 @@
+.jdialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999999;
+  overflow-y: auto;
+}
+
+.jdialog .jdialog-box {
+  background: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+.jdialog .jdialog-box div.title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 10px 15px 5px;
+}
+
+.jdialog .jdialog-box div.content {
+  padding-top: 10px;
+  padding: 10px 15px 10px;
+  max-height: 350px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.jdialog .jdialog-box div.content:empty {
+  height: 40px;
+  position: relative;
+  opacity: 0.6;
+}
+
+.jdialog .jdialog-box div.content:empty:before {
+  content: '';
+  height: 20px;
+  width: 20px;
+  border: solid 2px #aaa;
+  /*background-color: #ddd;*/
+  position: absolute;
+  left: 50%;
+  margin-left: -45px;
+  border-radius: 20%;
+  -webkit-animation: jdialog-rotate 1s infinite;
+  animation: jdialog-rotate 1s infinite;
+}
+
+.jdialog .jdialog-box div.content:empty:after {
+  content: 'loading..';
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+}
+
+.jdialog .jdialog-box .buttons {
+  padding: 10px 15px;
+}
+
+.jdialog .jdialog-box .buttons button + button {
+  margin-left: 5px;
+}
+
+.jdialog .jquery-clear {
+  clear: both;
+}
+
+.jdialog.white .jdialog-box {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.jdialog.white .jdialog-box .buttons button {
+  border: none;
+  background-image: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: none;
+  -webkit-transition: background .1s;
+  transition: background .1s;
+  color: white;
+}
+
+.jdialog.white .jdialog-box .buttons button.btn-default {
+  box-shadow: none;
+  color: #333;
+}
+
+.jdialog.white .jdialog-box .buttons button.btn-default:hover {
+  background: #ddd;
+}
+
+/*Transition rules*/
+.jdialog {
+  -webkit-perspective: 400px;
+  perspective: 400px;
+}
+
+.jdialog .jdialog-box {
+  /*visibility: visible;*/
+  opacity: 1;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  /*transition-delay: 0s;*/
+  -webkit-transition-property: -webkit-transform, opacity, box-shadow;
+  transition-property: transform, opacity, box-shadow
+  /*transition-property: all;*/
+  /*transition-duration: 2s;*/
+  /*transition: all 2s;*/
+}
+
+.jdialog .jdialog-box.anim-scale, {
+  /*visibility: hidden;*/
+  opacity: 0;
+}
+
+.jdialog .jdialog-box.anim-rotate {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.jdialog .jdialog-box.anim-scale {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.jdialog .jdialog-box.anim-none {
+  display: none;
+}

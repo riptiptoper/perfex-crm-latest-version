@@ -1,0 +1,225 @@
+<?php
+# Version 1.0.0
+
+
+# General
+
+$lang['chat_last_seen'] = 'Ultima vista';
+$lang['chat_message_you'] = 'Usted:';
+$lang['chat_message_deleted'] = 'Este mensaje fue eliminado';
+$lang['chat_type_a_message'] = 'Escribe un mensaje...';
+$lang['chat_search_chat_members'] = 'Buscar Miembros...';
+$lang['chat_search'] = 'Buscar...';
+$lang['chat_online_users'] = 'Online: ';
+$lang['chat_online_users_menu'] = 'Miembros Online';
+$lang['chat_change_color'] = 'Cambiar';
+$lang['chat_send_button'] = 'Enviar';
+$lang['chat_say_hi'] = 'Saludar a';
+$lang['chat_mass_message'] = 'Enviar Anuncio';
+$lang['chat_message_announcement'] = 'Mensaje masivo a miembros del Staff';
+$lang['chat_your_message_announce'] = 'Su mensaje / anuncio';
+$lang['chat_message_announce'] = 'Anuncio: ';
+$lang['chat_message_announcement_text'] = ' Anuncio';
+$lang['chat_non_selected_member_text'] = 'Seleccionar miembros';
+$lang['chat_call_on_skype'] = 'Llamar por Skype';
+$lang['chat_shared_files'] = 'Compartir archivos';
+$lang['chat_theme_name'] = 'Plantilla';
+$lang['chat_permitted_files'] = 'El archivo enviado tiene carácteres no permitidos.';
+$lang['chat_theme_options_light'] = 'Claro';
+$lang['chat_settings_permission'] = 'Usted no tiene permisos';
+$lang['chat_theme_options_dark'] = 'Oscuro';
+$lang['chat_delete_message'] = 'Eliminar';
+$lang['chat_user_active_now'] = 'Activar el Chat';
+$lang['chat_new_file_uploaded'] = 'subió un nuevo archivo';
+$lang['chat_file_upload'] = 'Subir Archivo';
+$lang['chat_new_link_shared'] = ' te ha enviado un enlace';
+$lang['chat_color_example_type'] = 'linear-gradient(#051937, #424323);';
+$lang['chat_browser_full_chat'] = 'Vista Completa';
+$lang['chat_role_administrator'] = 'Administrador';
+$lang['chat_role_employee'] = 'Empleado';
+$lang['chat_role_staff'] = 'Staff';
+$lang['chat_photos_text'] = 'Fotos';
+$lang['chat_files_text'] = 'Archivos';
+$lang['chat_shared_photos_text'] = 'Fotos Compartidas';
+$lang['chat_shared_files_text'] = 'Archivos Compartidos';
+$lang['chat_user_is_online'] = ' ha ingresado al CRM!';
+$lang['chat_settings_name'] = 'Configuración del Chat';
+$lang['chat_allow_delete_messages'] = 'Permitir al Staff borrar mensajes propios';
+$lang['chat_app_key_not_found'] = 'APP Key de Pusher no encontrada';
+$lang['chat_error_table'] = 'Error buscando usuarios, compruebe que existen!';
+$lang['chat_enable_option'] = 'Habilitar Pusher Chat';
+$lang['chat_error_float'] = 'Oops, algo ha fallado...';
+$lang['chat_sent_you_a_message'] = ' te ha enviado un mensaje';
+$lang['chat_you_have_a_new_message'] = 'Tienes un nuevo mensaje';
+$lang['chat_no_more_messages_to_show'] = 'No más mensajes';
+$lang['chat_no_more_messages_in_database'] = 'No hay más mensajes';
+$lang['chat_show_desktop_messages_notifications'] = 'Habilitar notificaciones de escritorio para el chat.';
+$lang['chat_solid_color_text'] = 'Color Sólido';
+$lang['chat_gradient_color_text'] = 'Gradiente Color';
+$lang['chat_reset_color_text'] = 'Resetear Colores';
+$lang['chat_delete_conversation'] = 'Eliminar Conversación';
+$lang['chat_conversation_deleted'] = 'Conversación eliminada exitosamente';
+$lang['chat_toggle_circle_text'] = 'Cambiar';
+$lang['chat_invalid_color_alert'] = 'Color no válido, por ejemplo usar: linear-gradient(#051937, #004d7a);';
+$lang['chat_sound_notifications'] = 'Notificaciones de Sonidos';
+$lang['chat_color_settings'] = 'Configuración de Color';
+$lang['chat_client_module_enabled'] = 'Habilitar Chat de Clientes';
+$lang['chat_new_messages'] = 'Nuevo mensaje de Cliente';
+$lang['chat_accessing_channels'] = 'Accediendo a canales...';
+$lang['chat_lang_clients'] = 'Clientes';
+$lang['chat_lang_show_clients'] = 'Mosotrar todos';
+$lang['chat_lang_hide_clients'] = 'Ocultar todos';
+$lang['chat_search_customers'] = 'Buscar Clientes...';
+$lang['chat_lang_customer'] = 'Cliente: ';
+$lang['chat_lang_contact'] = 'Contacto: ';
+$lang['chat_assigned_contacts'] = 'No tienes contactos asignados  aún.';
+$lang['chat_clients_assigned_admins'] = 'Miembros del Staff asignados';
+$lang['chat_clients_choose_and_start'] = 'Seleccione el Staff y comience la conversación';
+$lang['chat_no_more_contacts_found'] = 'No hay más clientes';
+$lang['chat_load_more_clients'] = 'Cargar más ...  ';
+$lang['chat_clients_bottom_options'] = 'Opciones Generales';
+$lang['chat_only_online_clients'] = 'Solo Online';
+$lang['chat_clients_click_to_see_info'] = 'Click Click para ver contactos offline de este cliente';
+$lang['chat_reload_clients_list'] = 'Recargar Clientes';
+$lang['chat_messages_search_here'] = 'Buscar aquí...';
+$lang['chat_search_mutual_messages'] = 'Buscar mensajes mutuos con: ';
+$lang['chat_messages_history_title'] = 'Historial de Mensajes';
+$lang['chat_sorry_no_data'] = 'Lo sentimos no hay registros.';
+
+# Chat Groups
+$lang['chat_group_modal_title'] = 'Nuevo grupo';
+$lang['chat_group_modal_add_title'] = 'Agregar miembros';
+$lang['chat_add_members'] = 'Agregar';
+$lang['chat_add_new_member'] = 'Agregar miembro';
+$lang['chat_message_groups_text'] = ' Crear grupo';
+$lang['chat_select_members_info'] = 'Seleccionar miembros para agregar';
+$lang['chat_message_groups'] = 'Seleccionar miembros e ingrese nombre del grupo';
+$lang['chat_groups_channel_text'] = 'Nombre del grupo';
+$lang['chat_group_text'] = 'Grupo ';
+$lang['chat_groups_text'] = 'Grupos';
+$lang['chat_staff_text'] = 'Staff';
+$lang['chat_group_deleted'] = 'Grupo eliminado exitosamente';
+$lang['chat_no_more_groups_to_delete'] = 'No hay más grupos';
+$lang['chat_are_you_sure_delete_group'] = 'Está seguro que desea eliminar este grupo?';
+$lang['chat_group_empty'] = 'El grupo está vacío';
+$lang['chat_group_settings_bar_text'] = 'Configuración del Grupo';
+$lang['chat_group_remove_member'] = 'Eliminar miembro';
+$lang['chat_group_leave'] = 'Abandonar grupo';
+$lang['chat_group_delete'] = 'Eliminar grupo';
+$lang['chat_group_members_text'] = 'Miembros';
+$lang['chat_group_shared_items_text'] = 'Items Compartidos';
+$lang['chat_someone_is_typing'] = 'Alguien está escribiendo...';
+$lang['chat_new_group_created_text'] = 'Nuevo grupo creado exitosamente ';
+$lang['chat_group_exists_text'] = 'El nombre del grupo ya existe, por favor seleccione otro nombre ';
+$lang['chat_added_to_group'] = 'Te has unido a un nuevo grupo ';
+$lang['chat_removed_from_group'] = 'Has sido eliminado del grupo ';
+$lang['chat_group_left_text'] = ' abandonado exitosamente';
+$lang['chat_group_name_required'] = 'El nombre del grupo es obligatorio';
+$lang['chat_group_member_is_required'] = 'Por favor seleccione al menos un miembro';
+$lang['chat_staff_can_create_groups'] = 'Permitir al Staff crear grupos';
+
+# Version 1.4.0
+$lang['chat_do_you_want_to_export'] = 'Desea exportar esta conversación antes de eliminarla?';
+$lang['chat_allow_staff_to_create_tickets'] = 'Permitir al staff convertir conversaciones en tickets de soporte desde el Chat';
+$lang['chat_new_ticket_created'] = 'Nuevo ticket de soporte creado con el siguiente asunto: ';
+$lang['chat_at_least_one_message_required'] = 'Al menos un mensaje es necesario para crear un ticket';
+$lang['chat_please_wait_creating_ticket'] = 'Por favor espere su ticket se está creando...';
+$lang['chat_type_in_ticket_subject'] = 'El asunto de su ticket';
+$lang['chat_online_clients_label'] = 'Clientes Conectados';
+$lang['chat_total_ticket_messages'] = 'Total mensajes: ';
+$lang['chat_ticket_subject_empty'] = 'El asunto del ticket no puede estar vacío!';
+$lang['chat_convert_messages_to_ticket'] = 'Convertir mensaje en ticket';
+$lang['chat_your_todays_ticket_messages'] = 'Mensajes recientes de las últimas 48 horas: ';
+$lang['chat_convert_to_ticket_label'] = 'Convertir a ticket';
+$lang['chat_client_new_ticket_created'] = 'Tienes un nuevo ticket de soporte creado desde el chat';
+$lang['chat_client_created_new_support_ticket'] = 'Un nuevo ticket de soporte ha sido creado, puede verlo en el siguiente enlace: ';
+$lang['chat_access_label'] = 'Módulo de Chat';
+$lang['chat_staff_member'] = 'Miembro del Staff: ';
+$lang['chat_export_messages_label'] = 'Exportar Mensajes';
+$lang['chat_total_mutual_messages_label'] = 'Total mensajes encontrados: ';
+$lang['chat_grant_access_label'] = 'Permitir Acceso';
+$lang['chat_options_show_users_label'] = 'En la vista chat, mostrar solo usuarios con permiso para usar el chat (también aplica a clientes)';
+$lang['chat_permissions_info'] = 'Para administrar permisos del Staff para uso del chat vaya al menú lateral <strong>Setup->Staff</strong> , seleccione al miembro específico y haga click en permisos y vaya a Módulo Chat para asignar permisos.';
+$lang['chat_permissions_info_option_select'] = 'Si el miembro del staff no tiene permisos para usar el chat, no estará disponible en la vista usuarios del chat y no podrá acceder al chat. Los miembros del Staff sin permisos para el chat no estarán visibles en la vista chat pero otros miembros del staff serán capaces de escribir mensajes, de esta manera cuando el empleado obtenga permiso de uso del chat podrá ver los mensajes recibidos y responder.';
+$lang['chat_header_message_id'] = 'Mensaje ID';
+$lang['chat_header_from'] = 'Enviar desde';
+$lang['chat_header_send_to'] = 'Enviar a';
+$lang['chat_header_message'] = 'Mensaje';
+$lang['chat_header_is_read'] = 'Visto';
+$lang['chat_header_deleted'] = 'Eliminado';
+$lang['chat_header_datetime'] = 'Fecha / Hora';
+$lang['chat_no_departments_found'] = 'No se encontraron departamentos, por favor agregue al menos un departamento';
+$lang['chat_announcement_success'] = 'Su anuncio fue enviado a los miembros seleccionados.';
+
+
+#Version 1.4.1
+$lang['chat_status_online'] = 'Online';
+$lang['chat_status_away'] = 'Fuera';
+$lang['chat_status_busy'] = 'ocupado';
+$lang['chat_status_offline'] = 'Offline';
+$lang['chat_header_status'] = 'Estado del Chat';
+$lang['chat_mentioned_you'] = 'te mencionó en un mensaje';
+$lang['chat_in_group'] = 'En grupo';
+$lang['chat_type_a_message_mention'] = 'escriba un mensaje, @nombre...';
+
+#Version 1.4.2
+$lang['chat_record_btn_label'] = 'Grabar';
+$lang['chat_send_btn_label'] = 'Enviar';
+$lang['chat_new_audio_message'] = ' te envió un mensaje de audio';
+$lang['chat_new_audio_message_sent'] = 'Nuevo mensaje de audio...';
+$lang['chat_i_sent_new_message'] = 'Te he enviado un nuevo mensaje de audio...';
+$lang['chat_new_audio_group_message'] = ' enviar un mensaje de audio al grupo';
+$lang['chat_click_to_record'] = 'Enviar nuevo mensaje de audio.';
+$lang['chat_is_recording'] = 'Grabando';
+$lang['chat_recording_finished'] = 'Finalizado... rendering audio file...';
+$lang['chat_send_audio_message'] = 'Enviar nuevo mensaje de audio miembro del staff o grupo';
+
+#Version 1.4.5
+$lang['chat_not_seen'] = 'Not seen';
+$lang['chat_msg_delivered'] = 'Delivered';
+$lang['chat_msg_seen'] = 'Seen at: ';
+$lang['chat_sent_at'] = 'Sent at: ';
+$lang['chat_online_filter'] = 'Online';
+$lang['chat_offline_filter'] = 'Offline';
+$lang['chat_unread_filter'] = 'Unread';
+$lang['chat_task_assign'] = 'Chat associated task to - ';
+$lang['chat_associate_task'] = 'Associate With Task';
+$lang['chat_task_info_message'] = '<strong class="text-danger">NOTE:</strong> Associating this task with the client will be shown when you select a customer from the menu and navigate in Tasks tab. If you want to associate the client with a <strong>project</strong> select Related To -> Project.';
+$lang['chat_create_events'] = 'Create Events';
+$lang['chat_mention_text'] = 'Mention';
+$lang['chat_quick_mention_title'] = 'Quick Mention';
+$lang['chat_search_msg_txt'] = 'Search Messages';
+$lang['chat_new_file_sent'] = "Uploaded a new file...";
+$lang['chat_viewed_at_datetime'] = 'Time Viewed';
+$lang['chat_export_message'] = 'Message: ';
+$lang['chat_announcement_modal_text'] = 'Staff Announcements';
+$lang['chat_client_announcement_title'] = 'Clients Announcements';
+$lang['chat_non_selected_client_text'] = 'Select Clients';
+$lang['chat_enter_your_message'] = 'Enter you message';
+$lang['chat_client_announcement_success'] = 'Messages successfully sent!';
+$lang['chat_choose_group'] = 'Choose Group';
+$lang['chat_deleting_message'] = 'Removing....';
+$lang['chat_cant_copy'] = 'This message can\'t be coppied';
+$lang['chat_message_copied'] = 'Message copied';
+$lang['chat_forward_message_btn'] = 'Forward';
+$lang['chat_search_users'] = 'Search users';
+
+#Version 1.4.6
+$lang['chat_group_renamed'] = 'Group name was changed to  ';
+$lang['chat_group_newname'] = 'Enter new group name';
+$lang['chat_rename_label'] = 'Rename Group';
+$lang['chat_delete_older_conversation_label'] = 'Delete conversation history older than 3 months (Uploads and Audio included)';
+$lang['chat_delete_note'] = 'Note: THIS CANNOT BE UNDONE AFTER DELETING THE CONVERSATION HISTORY WILL BE PERMANENTLY REMOVED';
+$lang['chat_all_messages_delete_text'] = 'All messages older than 3 months will be removed!';
+$lang['chat_delete_all_data'] = 'Delete all existing data (Uploads and Audio files included)';
+$lang['chat_purge_staff_label'] = 'Purge staff history';
+$lang['chat_purge_clients_label'] = 'Purge clients history';
+$lang['chat_purge_groups_label'] = 'Purge groups history';
+$lang['chat_purge_everything'] = 'Purge everything';
+$lang['chat_wipe_confirm'] = 'Completely wipe out all chat data and uploads?';
+$lang['chat_type_in_delete'] = 'Please type in DELETE to confirm';
+$lang['chat_history_conversation_deleted'] = 'Coversation history successfully deleted';
+$lang['chat_history_already_deleted'] = 'Coversation data for last 3 months is already deleted!';
+$lang['chat_action_was_cancelled'] = 'ACTION WAS CANCELLED OR WRONG INPUT';
+
+# Version 1.4.7

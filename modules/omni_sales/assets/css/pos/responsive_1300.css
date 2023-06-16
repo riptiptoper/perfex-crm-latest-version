@@ -1,0 +1,32 @@
+.table-menu .current-info{
+	height: 37px;
+    white-space: normal;
+    position: relative;
+    width: 190px;
+}
+#staff_login , #current{
+	position: absolute;
+}
+#staff_login{
+	    top: -13px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+#current{
+    top: 14px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.warehouse{
+	width: 200px !important;
+	flex: unset;
+}
